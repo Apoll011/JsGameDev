@@ -16,6 +16,6 @@ class GameDev{
         {
             console.log("Game Started");
         }
-        start();
+        this.start();
     }
 }
