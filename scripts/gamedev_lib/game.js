@@ -7,8 +7,8 @@ class GameDev{
         this.animate(update);
     }
     animate(update){
-        requestAnimationFrame(animate);
-        update();
+        requestAnimationFrame(this.animate);
+        this.update();
     }
     startt(start)
     {
