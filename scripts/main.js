@@ -1,6 +1,7 @@
 class game extends GameDev{
     constructor(){
-        super(this.start, this.update);
+        super();
+        super.constructor(this.start, this.update);
     }
     start()
     {
