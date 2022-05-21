@@ -12,7 +12,7 @@ class GameDev{
     }
     startt(start)
     {
-        if(debug)
+        if(this.debug)
         {
             console.log("Game Started");
         }
